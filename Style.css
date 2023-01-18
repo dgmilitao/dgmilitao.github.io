@@ -69,6 +69,7 @@ h1 {
 }
 
 h2 {
+    
     font-family: 'Open Sans',sans-serif;
     font-size: 36px;
     color: aliceblue;
@@ -78,6 +79,7 @@ h2 {
 }
 
 .text {
+   
     font-family: "Merriweather Sans", sans-serif;
     color: aliceblue;
     font-size: 21px;
