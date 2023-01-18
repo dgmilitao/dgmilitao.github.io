@@ -4,17 +4,24 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Righteous', cursive;
-    color: black;
+    color: aliceblue;
 }
 
 /* Header */
 
 .header-container {
     height: 100vh;
-    width: 100vh;
-    background-color: #413e3d;
-    background-image: url('./imagens/PerfilGiitHubCropYellow.png');
+    width: 100vw;
+    background-image: url(/imagens/CartoonMeTerno.png);
+    background-color: rgb(219, 219, 91);   
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 112px;
+    position: relative;
 }
