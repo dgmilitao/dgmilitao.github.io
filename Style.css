@@ -34,5 +34,14 @@ body {
 
 .item-menu {
      font-family: 'Open Sans', sans-serif;
+     color: aliceblue;
+     font-weight: 700;
+     font-size: 24px;
  } 
+
+ .content {
+    margin-bottom: 48px;
+    border-top: 0.4px solid aliceblue;
+
+ }
     
