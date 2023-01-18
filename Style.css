@@ -10,6 +10,7 @@
 body {
     font-size: 100%;
     background-color: #413e3d;
+    text-align: center;
 }
 
 .menu {
@@ -86,5 +87,27 @@ h2 {
     letter-spacing: -0.1px;
     line-height: 31px;
     margin: 0 0 30px 0;
+
+}
+
+div {
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-around;
+    gap: 32px;
+
+}
+
+button {
+    padding: 18px;  
+    border-style: none;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    
 
 }
