@@ -15,7 +15,7 @@
     background-image: url(/imagens/CartoonMeTerno.png);
     background-color: rgb(219, 219, 91);   
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
     background-size: contain;
     display: flex;
     flex-direction: column;
@@ -27,7 +27,7 @@
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 90px;
     text-transform: uppercase;  
     letter-spacing: 4px;
 
@@ -36,6 +36,7 @@ h1 {
 h2 {
     text-transform: uppercase;  
     letter-spacing: 4px;
+    font-size: 45px;
 }
 
 .social-midia {
@@ -46,7 +47,7 @@ h2 {
 .social-midia a {
     text-decoration: none;
     color: black;
-    padding: 1rem 4rem;
+    padding: 1rem 7.2rem;
     border: 1px solid black;
     min-width: 4rem;
     display: flex;
@@ -150,4 +151,40 @@ checkbox .trace:nth-child(3) {
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 40px;
+}
+
+/* Animação Menu TOP */
+
+#toggle:checked + .checkbox .trace:nth-child(1) {
+    transform:rotate(45deg);
+    top: 47px;
+}
+
+#toggle:checked + .checkbox .trace:nth-child(2) {
+    transform: translate(-100px);
+    width: 30px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#toggle:checked + .checkbox .trace:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 48px;
+
+}
+
+#toggle:checked + .checkbox {
+    background-color: #ffffff;
+
+}
+
+#toggle:checked ~ .menu {
+    box-shadow: 0px 0px 0px 100vmax #ffffff;
+    z-index: 1;
+}
+
+#toggle:checked ~ .menu-items {
+    visibility: visible;
+    opacity: 1;
+    
 }
