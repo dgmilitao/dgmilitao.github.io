@@ -37,6 +37,7 @@ h2 {
     text-transform: uppercase;  
     letter-spacing: 4px;
     font-size: 45px;
+    font-family: 'Sarala', sans-serif;
 }
 
 .social-midia {
@@ -47,7 +48,7 @@ h2 {
 .social-midia a {
     text-decoration: none;
     color: black;
-    padding: 1rem 7.2rem;
+    padding: 1rem 6.9rem;
     border: 1px solid black;
     min-width: 4rem;
     display: flex;
@@ -186,5 +187,5 @@ checkbox .trace:nth-child(3) {
 #toggle:checked ~ .menu-items {
     visibility: visible;
     opacity: 1;
-    
+
 }
