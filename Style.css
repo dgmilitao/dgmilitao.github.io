@@ -97,12 +97,12 @@ a:hover {
     transform: rotate(0);
 }
 
-checkbox .trace:nth-child(2) {
+.checkbox .trace:nth-child(2) {
     top: 46px;
     transform: rotate(0);
 }
 
-checkbox .trace:nth-child(3) {
+.checkbox .trace:nth-child(3) {
     top: 66px;
     transform: rotate(0);
 }
